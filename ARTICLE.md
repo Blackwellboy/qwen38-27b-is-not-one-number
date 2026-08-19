@@ -61,7 +61,7 @@ That is not a small tax.
 
 In a long-running agent, old reasoning can quietly become a large part of every future request.
 
-![preserve thinking tax](figures/fig-preserve.png)
+![preserve thinking tax](figures/fig-preserve.svg)
 
 There is also a subtle difference between disabling thinking and merely giving it less room.
 
@@ -130,7 +130,7 @@ In the paired comparison:
 
 The McNemar result was not significant (`p=0.25`), so I am not going to call LOW inherently more intelligent.
 
-![hard pack](figures/fig-hardpack.png)
+![hard pack](figures/fig-hardpack.svg)
 
 I retried the five XHIGH misses with a larger 7,000-token completion ceiling.
 
@@ -167,7 +167,7 @@ At `max_tokens=2048`, across 240 generations:
 
 XHIGH often thought for roughly twice as many tokens and then had dramatically less room left to write the actual code.
 
-![shaders at 2048](figures/fig-shader.png)
+![shaders at 2048](figures/fig-shader.svg)
 
 That is why I am careful with the phrase **"max thinking is worse."**
 
@@ -218,7 +218,7 @@ Median latency:
 | DEFAULT / unset | 8.51s |
 | XHIGH | 8.49s |
 
-![simple-task latency](figures/fig-verbosity.png)
+![simple-task latency](figures/fig-verbosity.svg)
 
 LOW did not make easy work cheap.
 
@@ -308,7 +308,7 @@ The final quality board:
 | IFEval prompt strict | 81.52% | 81.33% | **81.89%** |
 | IFEval instruction strict | 86.81% | 87.17% | **87.41%** |
 
-![quant quality](figures/fig-quant.png)
+![quant quality](figures/fig-quant.svg)
 
 That is a tiny spread considering how different the storage and compute formats are.
 
@@ -417,7 +417,7 @@ rather than saying "262K works" because the config file contained the number.
 
 A bounded three-needle retrieval still passed at about **12,712 prompt tokens**.
 
-![context flag vs realized](figures/fig-context.png)
+![context flag vs realized](figures/fig-context.svg)
 
 But that is not the end of the story.
 
@@ -474,7 +474,7 @@ and:
 
 **8-hour soak: 27,404 requests, zero failed**
 
-![llama.cpp q4](figures/fig-llamacpp.png)
+![llama.cpp q4](figures/fig-llamacpp.svg)
 
 Then I moved to official SGLang NVFP4.
 
@@ -559,7 +559,7 @@ The matched C1 result:
 **power: ~351.5 W**  
 **temperature: 50°C**
 
-![5090 stacks](figures/fig-5090-stacks.png)
+![5090 stacks](figures/fig-5090-stacks.svg)
 
 I had seen a ~160 tok/s claim I wanted to reproduce.
 
