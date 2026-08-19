@@ -1,0 +1,63 @@
+{
+  "schema": "qwen38_quant_comparison_gsm8k_ifeval_v1",
+  "run_id": "STANDARDIZED_THINKING_OFF_RECOVERY_20260817T090435Z",
+  "thinking": "OFF",
+  "status": "COMPLETE",
+  "harness": {
+    "name": "lm-eval",
+    "version": "0.4.12"
+  },
+  "dataset_revisions": {
+    "gsm8k": "740312add88f781978c0658806c59bc2815b9866",
+    "ifeval": "966cd89545d6b6acfd7638bc708b98261ca58e84"
+  },
+  "seal_commits": {
+    "BF16": "aa28cf974870dede92b5c15f6dd565b8716b36c6",
+    "FP8": "417704f6636bf14f544ad34f89e752cb160dd4ff",
+    "NVFP4": "040dd1d02e52829e58fa53481cb1236c00911617"
+  },
+  "arms": {
+    "BF16": {
+      "model_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "runtime": "aeon-vllm",
+      "runtime_revision": "0.25.0+aeon.sm121a.dflash",
+      "requests": 1860,
+      "success": 1860,
+      "errors": 0,
+      "gsm8k_flexible": 0.9651250947687642,
+      "gsm8k_strict": 0.9605761940864291,
+      "ifeval_prompt_strict": 0.8151571164510166,
+      "ifeval_instruction_strict": 0.86810551558753,
+      "ifeval_prompt_loose": 0.8576709796672828,
+      "ifeval_instruction_loose": 0.9028776978417267
+    },
+    "FP8": {
+      "model_revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+      "runtime": "aeon-vllm",
+      "runtime_revision": "0.25.0+aeon.sm121a.dflash",
+      "requests": 1860,
+      "success": 1860,
+      "errors": 0,
+      "gsm8k_flexible": 0.9598180439727066,
+      "gsm8k_strict": 0.9583017437452616,
+      "ifeval_prompt_strict": 0.8133086876155268,
+      "ifeval_instruction_strict": 0.8717026378896883,
+      "ifeval_prompt_loose": 0.8502772643253235,
+      "ifeval_instruction_loose": 0.9004796163069544
+    },
+    "NVFP4": {
+      "model_revision": "9c73e2daee1d0fd494ffbd1d8753f2174a953796",
+      "runtime": "aeon-vllm",
+      "runtime_revision": "0.25.0+aeon.sm121a.dflash",
+      "requests": 1860,
+      "success": 1860,
+      "errors": 0,
+      "gsm8k_flexible": 0.9537528430629265,
+      "gsm8k_strict": 0.9522365428354814,
+      "ifeval_prompt_strict": 0.8188539741219963,
+      "ifeval_instruction_strict": 0.8741007194244604,
+      "ifeval_prompt_loose": 0.8502772643253235,
+      "ifeval_instruction_loose": 0.8992805755395683
+    }
+  }
+}
