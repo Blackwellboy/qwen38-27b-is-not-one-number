@@ -1,0 +1,13 @@
+{
+  "run_id": "QWEN38_VERBOSITY_OVERTHINKING_DEXTER2_20260817T051303Z",
+  "requests": 466,
+  "errors": 0,
+  "pack_sha256": "ac087d0c53529230ed3ad2949d5665758e972460afab194e672acdd45fa5cba0",
+  "default_unset_effective": "XHIGH",
+  "default_vs_xhigh_identical": "36/36",
+  "simple_reasoning_final_ratio": {"OFF":0,"LOW":33,"DEFAULT":33,"XHIGH":33},
+  "latency_p50_s": {"OFF":0.93,"LOW":8.35,"DEFAULT":8.51,"XHIGH":8.49},
+  "thinking_off_leak": false,
+  "preserve_thinking_default": true,
+  "seal_commit": "5c158ebeef7577605589934f3e8b1243f35e8dbb"
+}
