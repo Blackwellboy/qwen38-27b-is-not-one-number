@@ -1,0 +1,21 @@
+{
+  "model": "Qwen3.8-27B Q4_K_M",
+  "source": "unsloth/Qwen3.8-27B-GGUF",
+  "source_revision": "430473d9d0e975450ce1f445642b6527cb4faea1",
+  "runtime": "llama.cpp",
+  "runtime_revision": "9402 (19e92c33e)",
+  "full_gpu_offload": true,
+  "load_s": 4.3,
+  "canaries": {"exact": "BLACKWELL38_READY", "decimal": "9.9"},
+  "decode_tps": [
+    {"context": "short", "tps": 79.45},
+    {"context": "~1K", "tps": 73.66},
+    {"context": "~8K", "tps": 71.76},
+    {"context": "~32K", "tps": 64.09}
+  ],
+  "soaks": [
+    {"duration": "2h", "requests": 6992, "failed": 0},
+    {"duration": "8h", "requests": 27404, "failed": 0}
+  ],
+  "qualification_seal": "2755a446ee4c184b8138031aaff622e50dd22e02"
+}
