@@ -1,0 +1,14 @@
+{
+  "run_id": "QWEN38_TEMP_SAMPLING_DEXTER2_20260817T043027Z",
+  "requests": 240,
+  "thinking_off_primary_n_per_temp": 36,
+  "cells": [
+    {"temperature":0.0,"pass":1.0,"mean_unique":1.0},
+    {"temperature":0.2,"pass":1.0,"mean_unique":1.08},
+    {"temperature":0.4,"pass":1.0,"mean_unique":1.17},
+    {"temperature":0.6,"pass":1.0,"mean_unique":1.25},
+    {"temperature":0.8,"pass":0.972,"mean_unique":1.33}
+  ],
+  "official_instruct_cell": {"temperature":0.7,"top_p":0.8,"presence_penalty":1.5,"n":36,"pass":1.0,"mean_unique":1.25},
+  "seal_commit": "0bb7426c280a911dc5422a2a4dda8c70f9763c20"
+}
