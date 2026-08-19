@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite this repository and preserve the protocol context."
+title: "Qwen 3.8 27B is not one number"
+type: dataset
+authors:
+  - name: "BlackwellBoy"
+repository-code: "https://github.com/Blackwellboy/qwen38-27b-is-not-one-number"
+date-released: 2026-08-19
+license: "CC-BY-4.0"
