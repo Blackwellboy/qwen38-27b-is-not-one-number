@@ -1,0 +1,23 @@
+{
+  "status": "PARTIAL_PUBLIC_RELEASE",
+  "sealed": [
+    {
+      "arm": "NVFP4",
+      "benchmark": "HumanEval+",
+      "base_pass": 124,
+      "base_total": 164,
+      "base_pct": 75.61,
+      "plus_pass": 121,
+      "plus_total": 164,
+      "plus_pct": 73.78,
+      "checkpoint_commit": "cd08eb11720eba4843afdc5c9cd1c7867a38ab36"
+    }
+  ],
+  "not_included_as_scores": [
+    "BF16 HumanEval+ (running at export checkpoint)",
+    "FP8 HumanEval+ (running at export checkpoint)",
+    "MBPP+ (not fully sealed across arms at export checkpoint)",
+    "BigCodeBench (follow-up)"
+  ],
+  "rule": "partial progress is never turned into a score"
+}
