@@ -1,0 +1,30 @@
+{
+  "model_declared_context": 262144,
+  "profiles": [
+    {
+      "name": "SGLang NONE RTX5090",
+      "configured_context": 262144,
+      "realized_kv_capacity": 42624,
+      "native_261k_disposition": "HOLD_REALIZED_KV_CAPACITY",
+      "bounded_retrieval": "3-needle PASS around 12.7K"
+    },
+    {
+      "name": "long-context SGLang profile",
+      "kv": "FP8",
+      "speculative": false,
+      "needles": "3/3",
+      "cells": [
+        {"isl": 32780, "decode_tps": 76.85},
+        {"isl": 131084, "decode_tps": 66.86},
+        {"isl": 240012, "decode_tps": 59.16},
+        {"isl": 256012, "decode_tps": 57.57},
+        {"isl": 261212, "decode_tps": 57.52, "ttft_s": 121.4}
+      ]
+    },
+    {
+      "name": "llama.cpp Q4_K_M",
+      "functional_contexts": [65536, 131072],
+      "261k_proven": false
+    }
+  ]
+}
