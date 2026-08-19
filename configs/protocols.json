@@ -1,0 +1,43 @@
+{
+  "quality_three_arm": {
+    "thinking": "OFF",
+    "harness": "lm-eval 0.4.12",
+    "benchmarks": [
+      "gsm8k",
+      "ifeval"
+    ],
+    "expected_requests_per_arm": 1860,
+    "controller_policy": "Restart=no; explicit completion gate; no stitching"
+  },
+  "hard_reasoning": {
+    "max_tokens": 4096,
+    "modes": [
+      "OFF",
+      "LOW",
+      "XHIGH"
+    ],
+    "temperature": 0.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "seed": 381001
+  },
+  "shader_budget": {
+    "max_tokens": 2048,
+    "modes": [
+      "LOW",
+      "XHIGH"
+    ],
+    "generations": 240
+  },
+  "mia_patched_c1": {
+    "kv": "turboquant_4bit_nc",
+    "speculative_method": "mtp",
+    "num_speculative_tokens": 3,
+    "requested_isl": 1024,
+    "requested_osl": 1024,
+    "patch": "#40914"
+  }
+}
