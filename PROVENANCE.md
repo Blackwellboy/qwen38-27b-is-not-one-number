@@ -17,4 +17,4 @@ Evidence seal identifiers are preserved in public result files to make the resea
 | Mia patched #40914 | `5e9aa4ebcf149bd4b9a303fbdc02c48386cc8320` |
 | ProgramBench Q11A reasoning A/B | `9161bdd5ba2b70d452a010c1cb5547efdcbcf2f6` |
 
-`SHA256SUMS.txt` fingerprints the exact public export files.
+The repository's validation workflow checks the required public evidence surface, parses every JSON result, scans public text for credential/local-path patterns, checks relative links, and verifies the three headline claim traces.
