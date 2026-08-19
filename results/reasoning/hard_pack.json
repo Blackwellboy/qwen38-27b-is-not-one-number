@@ -1,0 +1,15 @@
+{
+  "run_id": "QWEN38_HARD_REASONING_XHIGH_VALUE_DEXTER2_20260817T075849Z",
+  "scope": "50-task bounded hard-reasoning pack",
+  "primary_max_tokens": 4096,
+  "sampling": {"temperature":0.0,"top_p":0.95,"top_k":20,"min_p":0.0,"presence_penalty":0.0,"repetition_penalty":1.0,"seed":381001},
+  "results": {
+    "OFF": {"accuracy":0.68,"truncations":1},
+    "LOW": {"accuracy":0.94,"truncations":0},
+    "XHIGH": {"accuracy":0.88,"truncations":5}
+  },
+  "xhigh_non_truncated": {"correct":44,"total":45,"accuracy":0.9777777778},
+  "paired": {"xhigh_only_wins":0,"low_only_wins":3,"mcnemar_p":0.25},
+  "xhigh_7000_retry": {"misses_retried":5,"recovered":2,"recovered_reasoning_tokens":[5150,5958],"still_wrong":2,"still_truncating":1},
+  "seal_commit": "e5fd10282bd758e0d65b836a8c1b4b39a609b463"
+}
