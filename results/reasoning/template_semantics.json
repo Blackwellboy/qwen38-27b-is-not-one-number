@@ -1,0 +1,19 @@
+{
+  "official_model_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "official_template_reaudit_seal": "0f13cac639bbadc2be617551f3ad78b3a801722f",
+  "initial_trap_seal": "a801ae61bfa2a9006af5eeba488c6ddeb4aacf8c",
+  "findings": {
+    "unset_effective": "XHIGH",
+    "low_has_dedicated_instruction": true,
+    "xhigh_has_dedicated_instruction": true,
+    "medium_accepted": true,
+    "medium_has_dedicated_instruction": false,
+    "high_invalid": true,
+    "preserve_thinking_default": true,
+    "enable_thinking_false_reasoning_leak": false
+  },
+  "replay_examples": {
+    "prior_reasoning_chars_approx_4000": {"preserve_on_tokens": 1973, "preserve_off_tokens": 55},
+    "prior_reasoning_chars_approx_50000": {"preserve_on_tokens": 23654, "preserve_off_tokens": 55}
+  }
+}
