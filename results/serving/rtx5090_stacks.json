@@ -1,0 +1,48 @@
+{
+  "stack_summary": [
+    {
+      "stack": "SGLang NONE",
+      "gpu": "RTX 5090",
+      "realized_isl": 1049,
+      "realized_osl": 1024,
+      "true_decode_tps": 71.8,
+      "correctness": "PASS",
+      "notes": "no speculative decoder; configured 262K, realized KV 42,624"
+    },
+    {
+      "stack": "DSPARK",
+      "gpu": "RTX 5090",
+      "realized_isl": 1038,
+      "realized_osl": 1024,
+      "true_decode_tps": 81.74,
+      "ttft_s": 0.124,
+      "correctness": "PASS",
+      "seal_commit": "ca5dc168a9faaa1d364b28b85726090159c3994f"
+    },
+    {
+      "stack": "Mia TQ4 KV + MTP3, stock",
+      "gpu": "RTX 5090",
+      "correctness": "HOLD_CORRECTNESS",
+      "mtp_acceptance_pct": 77.8,
+      "realized_kv_capacity": 286466,
+      "notes": "TQ4+MTP3 active, but exact/JSON/tools/coding/multiturn garbled; speed not chased"
+    },
+    {
+      "stack": "Mia TQ4 KV + MTP3, patched #40914",
+      "gpu": "RTX 5090",
+      "realized_isl": 1056,
+      "realized_osl": 1024,
+      "true_decode_tps": 151.27145710171598,
+      "ttft_s": 0.9196055640059058,
+      "e2e_s": 7.688893171987729,
+      "memory_mib": 28918,
+      "power_w": 351.5,
+      "temp_c": 50,
+      "mtp_proposed": 834,
+      "mtp_accepted": 830,
+      "mtp_acceptance_pct": 99.520383693,
+      "correctness": "PASS",
+      "seal_commit": "5e9aa4ebcf149bd4b9a303fbdc02c48386cc8320"
+    }
+  ]
+}
