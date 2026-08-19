@@ -1,0 +1,54 @@
+category,study,variant,metric,value,unit,status,evidence_seal
+quality,GSM8K+IFEval,BF16,gsm8k_flexible,96.512509,percent,SEALED,aa28cf974870dede92b5c15f6dd565b8716b36c6
+quality,GSM8K+IFEval,BF16,gsm8k_strict,96.057619,percent,SEALED,aa28cf974870dede92b5c15f6dd565b8716b36c6
+quality,GSM8K+IFEval,BF16,ifeval_prompt_strict,81.515712,percent,SEALED,aa28cf974870dede92b5c15f6dd565b8716b36c6
+quality,GSM8K+IFEval,BF16,ifeval_instruction_strict,86.810552,percent,SEALED,aa28cf974870dede92b5c15f6dd565b8716b36c6
+quality,GSM8K+IFEval,FP8,gsm8k_flexible,95.981804,percent,SEALED,417704f6636bf14f544ad34f89e752cb160dd4ff
+quality,GSM8K+IFEval,FP8,gsm8k_strict,95.830174,percent,SEALED,417704f6636bf14f544ad34f89e752cb160dd4ff
+quality,GSM8K+IFEval,FP8,ifeval_prompt_strict,81.330869,percent,SEALED,417704f6636bf14f544ad34f89e752cb160dd4ff
+quality,GSM8K+IFEval,FP8,ifeval_instruction_strict,87.170264,percent,SEALED,417704f6636bf14f544ad34f89e752cb160dd4ff
+quality,GSM8K+IFEval,NVFP4,gsm8k_flexible,95.375284,percent,SEALED,040dd1d02e52829e58fa53481cb1236c00911617
+quality,GSM8K+IFEval,NVFP4,gsm8k_strict,95.223654,percent,SEALED,040dd1d02e52829e58fa53481cb1236c00911617
+quality,GSM8K+IFEval,NVFP4,ifeval_prompt_strict,81.885397,percent,SEALED,040dd1d02e52829e58fa53481cb1236c00911617
+quality,GSM8K+IFEval,NVFP4,ifeval_instruction_strict,87.410072,percent,SEALED,040dd1d02e52829e58fa53481cb1236c00911617
+reasoning,50-task hard pack,OFF,accuracy,68.0,percent,SEALED,e5fd10282bd758e0d65b836a8c1b4b39a609b463
+reasoning,50-task hard pack,OFF,truncations,1,count,SEALED,e5fd10282bd758e0d65b836a8c1b4b39a609b463
+reasoning,50-task hard pack,LOW,accuracy,94.0,percent,SEALED,e5fd10282bd758e0d65b836a8c1b4b39a609b463
+reasoning,50-task hard pack,LOW,truncations,0,count,SEALED,e5fd10282bd758e0d65b836a8c1b4b39a609b463
+reasoning,50-task hard pack,XHIGH,accuracy,88.0,percent,SEALED,e5fd10282bd758e0d65b836a8c1b4b39a609b463
+reasoning,50-task hard pack,XHIGH,truncations,5,count,SEALED,e5fd10282bd758e0d65b836a8c1b4b39a609b463
+reasoning,shader budget 2048,HF LOW,pass,70.0,percent,SEALED,603e43a37d6e75176d0033cb067749db5854a00f
+reasoning,shader budget 2048,HF LOW,truncated,21.7,percent,SEALED,603e43a37d6e75176d0033cb067749db5854a00f
+reasoning,shader budget 2048,HF XHIGH,pass,48.3,percent,SEALED,603e43a37d6e75176d0033cb067749db5854a00f
+reasoning,shader budget 2048,HF XHIGH,truncated,50.0,percent,SEALED,603e43a37d6e75176d0033cb067749db5854a00f
+reasoning,shader budget 2048,Control LOW,pass,73.3,percent,SEALED,603e43a37d6e75176d0033cb067749db5854a00f
+reasoning,shader budget 2048,Control LOW,truncated,20.0,percent,SEALED,603e43a37d6e75176d0033cb067749db5854a00f
+reasoning,shader budget 2048,Control XHIGH,pass,50.0,percent,SEALED,603e43a37d6e75176d0033cb067749db5854a00f
+reasoning,shader budget 2048,Control XHIGH,truncated,43.3,percent,SEALED,603e43a37d6e75176d0033cb067749db5854a00f
+sampling,temperature,T=0.0,pass,100.0,percent,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+sampling,temperature,T=0.0,mean_unique,1.0,answers/prompt,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+sampling,temperature,T=0.2,pass,100.0,percent,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+sampling,temperature,T=0.2,mean_unique,1.08,answers/prompt,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+sampling,temperature,T=0.4,pass,100.0,percent,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+sampling,temperature,T=0.4,mean_unique,1.17,answers/prompt,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+sampling,temperature,T=0.6,pass,100.0,percent,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+sampling,temperature,T=0.6,mean_unique,1.25,answers/prompt,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+sampling,temperature,T=0.8,pass,97.2,percent,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+sampling,temperature,T=0.8,mean_unique,1.33,answers/prompt,SEALED,0bb7426c280a911dc5422a2a4dda8c70f9763c20
+reasoning,easy-task latency,OFF,p50_latency,0.93,seconds,SEALED,5c158ebeef7577605589934f3e8b1243f35e8dbb
+reasoning,easy-task latency,LOW,p50_latency,8.35,seconds,SEALED,5c158ebeef7577605589934f3e8b1243f35e8dbb
+reasoning,easy-task latency,DEFAULT,p50_latency,8.51,seconds,SEALED,5c158ebeef7577605589934f3e8b1243f35e8dbb
+reasoning,easy-task latency,XHIGH,p50_latency,8.49,seconds,SEALED,5c158ebeef7577605589934f3e8b1243f35e8dbb
+context,long-context SGLang,ISL 32780,decode_tps,76.85,tok/s,SEALED,ceefc1dcd7ae5c4f0647a1a9b578bcd2cdbb4b39
+context,long-context SGLang,ISL 131084,decode_tps,66.86,tok/s,SEALED,ceefc1dcd7ae5c4f0647a1a9b578bcd2cdbb4b39
+context,long-context SGLang,ISL 240012,decode_tps,59.16,tok/s,SEALED,ceefc1dcd7ae5c4f0647a1a9b578bcd2cdbb4b39
+context,long-context SGLang,ISL 256012,decode_tps,57.57,tok/s,SEALED,ceefc1dcd7ae5c4f0647a1a9b578bcd2cdbb4b39
+context,long-context SGLang,ISL 261212,decode_tps,57.52,tok/s,SEALED,ceefc1dcd7ae5c4f0647a1a9b578bcd2cdbb4b39
+serving,RTX5090 stack,SGLang NONE,true_decode_tps,71.8,tok/s,PASS,
+serving,RTX5090 stack,DSPARK,true_decode_tps,81.74,tok/s,PASS,ca5dc168a9faaa1d364b28b85726090159c3994f
+serving,RTX5090 stack,"Mia TQ4 KV + MTP3, patched #40914",true_decode_tps,151.27145710171598,tok/s,PASS,5e9aa4ebcf149bd4b9a303fbdc02c48386cc8320
+supplemental,ProgramBench Q11A,OFF_ORIGINAL,tests_pass_pct,50.0,percent,NON_LEADERBOARD,9161bdd5ba2b70d452a010c1cb5547efdcbcf2f6
+supplemental,ProgramBench Q11A,OFF_REPEAT,tests_pass_pct,48.01,percent,NON_LEADERBOARD,9161bdd5ba2b70d452a010c1cb5547efdcbcf2f6
+supplemental,ProgramBench Q11A,LOW,tests_pass_pct,50.4,percent,NON_LEADERBOARD,9161bdd5ba2b70d452a010c1cb5547efdcbcf2f6
+supplemental,ProgramBench Q11A,XHIGH,tests_pass_pct,0.0,percent,NON_LEADERBOARD,9161bdd5ba2b70d452a010c1cb5547efdcbcf2f6
+supplemental,ProgramBench Q11A,MEDIUM,tests_pass_pct,61.35,percent,NON_LEADERBOARD,9161bdd5ba2b70d452a010c1cb5547efdcbcf2f6
