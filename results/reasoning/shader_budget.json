@@ -1,0 +1,11 @@
+{
+  "scope": "240-generation shader/code budget study at max_tokens=2048",
+  "cells": [
+    {"recipe":"HF","mode":"LOW","pass_pct":70.0,"truncated_pct":21.7,"mean_reasoning_tokens":646,"mean_code_tokens":90},
+    {"recipe":"HF","mode":"XHIGH","pass_pct":48.3,"truncated_pct":50.0,"mean_reasoning_tokens":1274,"mean_code_tokens":38},
+    {"recipe":"Control","mode":"LOW","pass_pct":73.3,"truncated_pct":20.0,"mean_reasoning_tokens":661,"mean_code_tokens":98},
+    {"recipe":"Control","mode":"XHIGH","pass_pct":50.0,"truncated_pct":43.3,"mean_reasoning_tokens":1233,"mean_code_tokens":46}
+  ],
+  "tiny_budget": {"max_tokens":64,"low_trunc_pct":77.8,"xhigh_trunc_pct":77.8},
+  "seal_commits": ["603e43a37d6e75176d0033cb067749db5854a00f","3fd2a803512c56225fc65688491bd4ec73fa76d2"]
+}
