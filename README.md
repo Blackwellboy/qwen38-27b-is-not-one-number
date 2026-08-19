@@ -4,7 +4,7 @@
 
 This is the public, sanitized research release behind the article **“Qwen 3.8 27B is not one number.”** It contains the technical results, protocol identities, figures, negative results and reproducibility notes needed to interpret the claims — without the private lab notebook's fleet-control chatter, TODOs, session handoffs or sensitive raw material.
 
-![RTX 5090 stack comparison](figures/fig-5090-stacks.png)
+![RTX 5090 stack comparison](figures/fig-5090-stacks.svg)
 
 ## Start here
 
