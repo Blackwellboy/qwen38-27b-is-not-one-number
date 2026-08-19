@@ -6,6 +6,8 @@
       "realized_isl": 1049,
       "realized_osl": 1024,
       "true_decode_tps": 71.8,
+      "configured_context": 262144,
+      "realized_kv_capacity": 42624,
       "correctness": "PASS",
       "notes": "no speculative decoder; configured 262K, realized KV 42,624"
     },
