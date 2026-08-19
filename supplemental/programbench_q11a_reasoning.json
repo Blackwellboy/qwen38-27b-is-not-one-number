@@ -1,0 +1,16 @@
+{
+  "experiment": "Q11A_REASONING_AB_20260819T105649Z",
+  "task_id": "drew-alleman__datasurgeon.d257cee",
+  "scope": "single_preregistered_ProgramBench_task_paired_ablation",
+  "leaderboard_comparable": false,
+  "max_tokens": 8192,
+  "arms": [
+    {"mode":"OFF_ORIGINAL","tests_pass":251,"tests_total":502,"pct":50.0,"calls":18,"wall_s":78,"reasoning_chars":0,"resolved":false,"status":"historical original"},
+    {"mode":"OFF_REPEAT","tests_pass":241,"tests_total":502,"pct":48.01,"calls":30,"wall_s":302,"reasoning_chars":0,"resolved":false,"status":"LimitsExceeded"},
+    {"mode":"LOW","tests_pass":253,"tests_total":502,"pct":50.4,"calls":30,"wall_s":303,"reasoning_chars":22540,"resolved":false,"status":"Submitted"},
+    {"mode":"XHIGH","tests_pass":0,"tests_total":502,"pct":0.0,"calls":15,"wall_s":343,"reasoning_chars":9978,"resolved":false,"status":"RepeatedFormatError / compile_failed"},
+    {"mode":"MEDIUM","tests_pass":308,"tests_total":502,"pct":61.35,"calls":30,"wall_s":594,"reasoning_chars":38085,"resolved":false,"status":"LimitsExceeded"}
+  ],
+  "output_budget_starvation_seen": false,
+  "seal_commit": "9161bdd5ba2b70d452a010c1cb5547efdcbcf2f6"
+}
